@@ -13,14 +13,15 @@ const Projects = () => {
       title: "GOTHAM",
       description:
         "A news website to keep you updated with the current world.",
-      photo: "/src/assets/pic4.jpg",
+      photo: "../assets/pic4.jpg",
       to: "https://news-website-jptb.vercel.app/"
     },
     {
       title: "My Portfolio",
       description:
         "My portfolio showcasing my skills and work.",
-      photo: "/src/assets/pic5.jpg",
+      photo: "../assets/pic5.jpg",
+      to: "https://my-portfolio-omega-virid.vercel.app/"
     },
   ];
   return (
