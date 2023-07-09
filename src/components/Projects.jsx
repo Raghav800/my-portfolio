@@ -13,7 +13,7 @@ const Projects = () => {
       title: "GOTHAM",
       description:
         "A news website to keep you updated with the current world.",
-      photo: "../assets/pic4.jpg",
+      photo: "https://dxlm84u5gf2hs.cloudfront.net/wp-content/uploads/2018/01/Fotolia_104752853_S.jpg",
       to: "https://news-website-jptb.vercel.app/"
     },
     {
