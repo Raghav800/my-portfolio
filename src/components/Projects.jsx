@@ -20,7 +20,7 @@ const Projects = () => {
       title: "My Portfolio",
       description:
         "My portfolio showcasing my skills and work.",
-      photo: "../assets/pic5.jpg",
+      photo: "https://cache.careers360.mobi/media/article_images/2022/4/20/How-to-make-portfolio-for-design-admission.jpg",
       to: "https://my-portfolio-omega-virid.vercel.app/"
     },
   ];
@@ -40,7 +40,7 @@ const Projects = () => {
           return (
             <div
               key={index}
-              className="flex flex-col shadow-sm md:w-[343px] bg-[#31313F] p-4 rounded"
+              className="flex flex-col shadow-sm md:w-[343px] w-fixed bg-[#31313F] p-4 rounded"
             >
               <a
                 href={project.photo}
@@ -48,7 +48,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="mb-4"
               >
-                <img src={project.photo} alt={project.title} />
+                <img src={project.photo} alt={project.title} className='w-[280px] mx-auto h-[200px]'/>
               </a>
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
